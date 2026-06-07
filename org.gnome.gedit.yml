@@ -6,8 +6,7 @@ command: gedit
 
 finish-args:
   # Needed for access to removable disks due to custom open/save dialog
-  - --device=usb
-  - --require-version=1.16.0
+  - --device=all
   - --share=ipc
   - --socket=fallback-x11
   - --socket=wayland
